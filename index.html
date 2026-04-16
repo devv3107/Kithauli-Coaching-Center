@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kithauli Coaching Center | Building Strong Foundations</title>
+  <link rel="stylesheet" href="style (1).css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="brand">
+        <span class="brand-icon">✦</span>
+        <div>
+          <span class="brand-name">Kithauli</span>
+          <span class="brand-sub">Coaching Center</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#faculty">Faculty</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#batches">Batches</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#enroll" class="nav-cta">Enroll Now</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-circle c1"></div>
+      <div class="hero-circle c2"></div>
+      <div class="hero-circle c3"></div>
+      <div class="hero-dots"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-badge">Est. in Meerut, UP · Trusted by 1000+ Families</div>
+      <h1 class="hero-title">
+        Building Strong<br />
+        <span class="highlight">Foundations</span><br />
+        for a Bright Future.
+      </h1>
+      <p class="hero-sub">From primary classes to competitive exams — expert coaching, personalised attention, and proven results at Kithauli Coaching Center.</p>
+      <div class="hero-btns">
+        <a href="#enroll" class="btn btn-primary">Enroll Now →</a>
+        <a href="#courses" class="btn btn-outline">View Courses</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hstat"><span class="hstat-num" data-target="1200">0</span>+ <span>Students</span></div>
+        <div class="hstat-div"></div>
+        <div class="hstat"><span class="hstat-num" data-target="98">0</span>% <span>Pass Rate</span></div>
+        <div class="hstat-div"></div>
+        <div class="hstat"><span class="hstat-num" data-target="12">0</span>+ <span>Years Legacy</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">↓ Explore</div>
+  </section>
+
+  <!-- ===== COURSES ===== -->
+  <section class="section courses-section" id="courses">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Teach</span>
+        <h2 class="section-title">Our Courses &amp; Subjects</h2>
+        <p class="section-sub">Structured academic programs designed for every stage of a student's journey.</p>
+      </div>
+
+      <div class="course-tabs">
+        <button class="tab active" data-tab="all">All</button>
+        <button class="tab" data-tab="primary">Primary</button>
+        <button class="tab" data-tab="middle">Middle School</button>
+        <button class="tab" data-tab="high">High School</button>
+        <button class="tab" data-tab="competitive">Competitive</button>
+      </div>
+
+      <div class="courses-grid" id="coursesGrid">
+        <!-- Cards injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FACULTY ===== -->
+  <section class="section faculty-section" id="faculty">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Meet the Team</span>
+        <h2 class="section-title">Our Expert Faculty</h2>
+        <p class="section-sub">Experienced educators committed to unlocking every student's potential.</p>
+      </div>
+      <div class="faculty-grid">
+        <div class="faculty-card">
+          <div class="faculty-avatar" style="background: linear-gradient(135deg,#1a56db,#0e4bc7);">
+            <span>RK</span>
+          </div>
+          <h3>Rajesh Kumar</h3>
+          <p class="faculty-subject">Mathematics & Physics</p>
+          <p class="faculty-exp">15+ Years Experience · M.Sc. Physics, BHU</p>
+          <div class="faculty-tags"><span>Class 9–12</span><span>JEE Prep</span></div>
+        </div>
+        <div class="faculty-card">
+          <div class="faculty-avatar" style="background: linear-gradient(135deg,#0d9e6e,#057a52);">
+            <span>PS</span>
+          </div>
+          <h3>Priya Sharma</h3>
+          <p class="faculty-subject">English & Social Science</p>
+          <p class="faculty-exp">10+ Years Experience · M.A. English, AMU</p>
+          <div class="faculty-tags"><span>Class 6–10</span><span>Board Prep</span></div>
+        </div>
+        <div class="faculty-card">
+          <div class="faculty-avatar" style="background: linear-gradient(135deg,#e07b1a,#c4640d);">
+            <span>AV</span>
+          </div>
+          <h3>Anil Verma</h3>
+          <p class="faculty-subject">Chemistry & Biology</p>
+          <p class="faculty-exp">12+ Years Experience · M.Sc. Chemistry, CCSU</p>
+          <div class="faculty-tags"><span>Class 9–12</span><span>NEET Prep</span></div>
+        </div>
+        <div class="faculty-card">
+          <div class="faculty-avatar" style="background: linear-gradient(135deg,#7c3aed,#5b21b6);">
+            <span>DG</span>
+          </div>
+          <h3>Devansh Gautam</h3>
+          <p class="faculty-subject">Mathematics</p>
+          <p class="faculty-exp">8+ Years Experience · Msc Maths, MDU</p>
+          <div class="faculty-tags"><span>Class 8-12</span><span>JEE Prep</span></div>
+        </div>
+        <div class="faculty-card">
+          <div class="faculty-avatar" style="background: linear-gradient(135deg,#be123c,#9f1239);">
+            <span>DT</span>
+          </div>
+          <h3>Deepak Tyagi</h3>
+          <p class="faculty-subject">Mathematics (Primary & Middle)</p>
+          <p class="faculty-exp">7+ Years Experience · B.Ed., CCS University</p>
+          <div class="faculty-tags"><span>Class 1–8</span><span>Foundation</span></div>
+        </div>
+        <div class="faculty-card">
+          <div class="faculty-avatar" style="background: linear-gradient(135deg,#0891b2,#0e7490);">
+            <span>NK</span>
+          </div>
+          <h3>Neha Kapoor</h3>
+          <p class="faculty-subject">Computer Science</p>
+          <p class="faculty-exp">6+ Years Experience · MCA, GGSIPU</p>
+          <div class="faculty-tags"><span>Class 9–12</span><span>CBSE/UP Board</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== RESULTS ===== -->
+  <section class="section results-section" id="results">
+    <div class="results-bg-text">RESULTS</div>
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">Our Track Record</span>
+        <h2 class="section-title">Achievements &amp; Results</h2>
+        <p class="section-sub">Numbers that reflect our commitment to academic excellence.</p>
+      </div>
+
+      <div class="counters-grid">
+        <div class="counter-card">
+          <div class="counter-icon">🎓</div>
+          <div class="counter-num" data-target="1200">0</div>
+          <div class="counter-label">Students Taught</div>
+        </div>
+        <div class="counter-card">
+          <div class="counter-icon">📊</div>
+          <div class="counter-num" data-target="98">0</div>
+          <div class="counter-suffix">%</div>
+          <div class="counter-label">Board Pass Rate</div>
+        </div>
+        <div class="counter-card">
+          <div class="counter-icon">🏆</div>
+          <div class="counter-num" data-target="85">0</div>
+          <div class="counter-suffix">%</div>
+          <div class="counter-label">Score 80%+ in Boards</div>
+        </div>
+        <div class="counter-card">
+          <div class="counter-icon">⭐</div>
+          <div class="counter-num" data-target="12">0</div>
+          <div class="counter-label">Years of Excellence</div>
+        </div>
+      </div>
+
+      <div class="testimonials">
+        <div class="testimonial-header">What Students &amp; Parents Say</div>
+        <div class="testimonial-track" id="testimonialTrack">
+          <div class="testimonial-card">
+            <div class="tquote">"</div>
+            <p>My daughter scored 92% in Class 10 boards after joining Kithauli Coaching. The teachers here are very dedicated and explain concepts from the basics. Highly recommended for all parents!"</p>
+            <div class="tauthor"><strong>Ramesh Gupta</strong> · Parent, Class 10</div>
+          </div>
+          <div class="testimonial-card">
+            <div class="tquote">"</div>
+            <p>I cleared the UP Board with distinction and it wouldn't have been possible without Rajesh Sir's Mathematics coaching. The small batch size gave me the personal attention I needed."</p>
+            <div class="tauthor"><strong>Anjali Singh</strong> · Student, Class 12</div>
+          </div>
+          <div class="testimonial-card">
+            <div class="tquote">"</div>
+            <p>The faculty is very experienced and the study material is excellent. My son's confidence in Science has grown tremendously in just 3 months of coaching here."</p>
+            <div class="tauthor"><strong>Meena Devi</strong> · Parent, Class 9</div>
+          </div>
+          <div class="testimonial-card">
+            <div class="tquote">"</div>
+            <p>Best coaching center in the area. Affordable fees, great teachers, and regular tests helped me prepare thoroughly for my board exams. I scored 88% in Class 12!"</p>
+            <div class="tauthor"><strong>Vikas Yadav</strong> · Student, Class 12</div>
+          </div>
+        </div>
+        <div class="testimonial-dots" id="testimonialDots"></div>
+        <div class="testimonial-nav">
+          <button id="tPrev">←</button>
+          <button id="tNext">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ENROLL FORM ===== -->
+  <section class="section enroll-section" id="enroll">
+    <div class="container enroll-inner">
+      <div class="enroll-info">
+        <span class="section-tag">Join Us Today</span>
+        <h2 class="section-title">Enroll Your Child</h2>
+        <p>Take the first step towards academic excellence. Fill in the form and our team will get in touch within 24 hours.</p>
+        <ul class="enroll-perks">
+          <li>✦ Free first demo class</li>
+          <li>✦ Flexible batch timings</li>
+          <li>✦ Experienced & qualified faculty</li>
+          <li>✦ Regular tests & feedback</li>
+          <li>✦ Affordable fee structure</li>
+        </ul>
+      </div>
+      <div class="enroll-form-wrap">
+        <form id="enrollForm" class="form-card" novalidate>
+          <h3>Registration Form</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="studentName">Student Name *</label>
+              <input type="text" id="studentName" placeholder="Full Name" required />
+              <span class="err" id="err-studentName"></span>
+            </div>
+            <div class="form-group">
+              <label for="grade">Class / Grade *</label>
+              <select id="grade" required>
+                <option value="">Select Class</option>
+                <option>Class 1–5 (Primary)</option>
+                <option>Class 6–8 (Middle)</option>
+                <option>Class 9–10 (High School)</option>
+                <option>Class 11–12 (Senior Secondary)</option>
+                <option>Competitive Exam Prep</option>
+              </select>
+              <span class="err" id="err-grade"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject of Interest *</label>
+            <input type="text" id="subject" placeholder="e.g., Mathematics, Science, English" required />
+            <span class="err" id="err-subject"></span>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="parentName">Parent / Guardian Name</label>
+              <input type="text" id="parentName" placeholder="Parent's Name" />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX" required />
+              <span class="err" id="err-phone"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="example@email.com" />
+            <span class="err" id="err-email"></span>
+          </div>
+          <button type="submit" class="btn btn-primary full-btn">Submit Enrollment →</button>
+          <div class="form-success" id="enrollSuccess">
+            <span>✅</span> Thank you! We will contact you shortly.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BATCH TIMINGS ===== -->
+  <section class="section batches-section" id="batches">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Schedule</span>
+        <h2 class="section-title">Batch Timings</h2>
+        <p class="section-sub">Choose a batch that fits your schedule. Limited seats per batch for quality learning.</p>
+      </div>
+      <div class="batches-grid">
+        <div class="batch-card morning">
+          <div class="batch-icon">🌅</div>
+          <h3>Morning Batch</h3>
+          <table class="batch-table">
+            <tr><th>Days</th><th>Timing</th><th>Classes</th></tr>
+            <tr><td>Mon – Sat</td><td>6:30 AM – 8:00 AM</td><td>Primary (1–5)</td></tr>
+            <tr><td>Mon – Sat</td><td>8:00 AM – 9:30 AM</td><td>Middle (6–8)</td></tr>
+          </table>
+        </div>
+        <div class="batch-card afternoon">
+          <div class="batch-icon">☀️</div>
+          <h3>Afternoon Batch</h3>
+          <table class="batch-table">
+            <tr><th>Days</th><th>Timing</th><th>Classes</th></tr>
+            <tr><td>Mon – Fri</td><td>2:00 PM – 4:00 PM</td><td>High School (9–10)</td></tr>
+            <tr><td>Mon – Fri</td><td>4:00 PM – 6:00 PM</td><td>Sr. Secondary (11–12)</td></tr>
+          </table>
+        </div>
+        <div class="batch-card evening">
+          <div class="batch-icon">🌙</div>
+          <h3>Evening Batch</h3>
+          <table class="batch-table">
+            <tr><th>Days</th><th>Timing</th><th>Classes</th></tr>
+            <tr><td>Mon – Sat</td><td>6:00 PM – 7:30 PM</td><td>Primary & Middle</td></tr>
+            <tr><td>Mon – Sat</td><td>7:30 PM – 9:00 PM</td><td>High School</td></tr>
+          </table>
+        </div>
+        <div class="batch-card weekend">
+          <div class="batch-icon">📅</div>
+          <h3>Weekend Batch</h3>
+          <table class="batch-table">
+            <tr><th>Days</th><th>Timing</th><th>Classes</th></tr>
+            <tr><td>Sat – Sun</td><td>9:00 AM – 12:00 PM</td><td>Competitive Exams</td></tr>
+            <tr><td>Sun</td><td>10:00 AM – 1:00 PM</td><td>Doubt Clearing</td></tr>
+          </table>
+        </div>
+      </div>
+      <p class="batch-note">📌 Seats are limited. Early enrollment is advised. Call us to confirm seat availability.</p>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section about-section" id="about">
+    <div class="container about-inner">
+      <div class="about-text">
+        <span class="section-tag">About Us</span>
+        <h2 class="section-title">Our Story &amp; Mission</h2>
+        <p>Kithauli Coaching Center was founded over a decade ago with a singular mission: to provide quality education to every student in and around Kithauli village, regardless of their background. What started as a small tuition class has grown into a trusted academic institution serving 1,200+ students.</p>
+        <p style="margin-top:1rem;">Our teaching philosophy is rooted in concept clarity, regular practice, and individualized attention. Small batch sizes ensure that no student is left behind, and our experienced faculty brings both expertise and passion to every class.</p>
+        <div class="about-highlights">
+          <div class="about-hl"><span>📍</span><div><strong>Location</strong><p>Village Kithauli, Baghpat Road NH334B, Meerut, UP</p></div></div>
+          <div class="about-hl"><span>📞</span><div><strong>Phone</strong><p>+91 98765 43210</p></div></div>
+          <div class="about-hl"><span>✉️</span><div><strong>Email</strong><p>info@kithaulicoaching.in</p></div></div>
+        </div>
+      </div>
+      <div class="about-map">
+        <div class="map-placeholder">
+          <div class="map-pin">📍</div>
+          <div class="map-text">
+            <strong>Kithauli Coaching Center</strong><br />
+            Village Kithauli, Baghpat Road NH334B<br />
+            Meerut, Uttar Pradesh – 250001
+          </div>
+          <a href="https://maps.google.com/?q=Kithauli+Meerut+UP" target="_blank" class="btn btn-outline" style="margin-top:1rem;">Open in Google Maps</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact Us</h2>
+        <p class="section-sub">Have questions? We'd love to hear from you.</p>
+      </div>
+      <div class="contact-inner">
+        <div class="contact-info">
+          <div class="cinfo-card">
+            <span class="cinfo-icon">📞</span>
+            <div>
+              <strong>Phone</strong>
+              <p>+91 98765 43210</p>
+              <p>+91 87654 32109</p>
+            </div>
+          </div>
+          <div class="cinfo-card">
+            <span class="cinfo-icon">✉️</span>
+            <div>
+              <strong>Email</strong>
+              <p>info@kithaulicoaching.in</p>
+            </div>
+          </div>
+          <div class="cinfo-card">
+            <span class="cinfo-icon">📍</span>
+            <div>
+              <strong>Address</strong>
+              <p>Village Kithauli, Baghpat Road NH334B, Meerut, UP – 250001</p>
+            </div>
+          </div>
+          <div class="cinfo-card">
+            <span class="cinfo-icon">🕐</span>
+            <div>
+              <strong>Office Hours</strong>
+              <p>Mon – Sat: 6:00 AM – 9:00 PM</p>
+              <p>Sunday: 9:00 AM – 1:00 PM</p>
+            </div>
+          </div>
+        </div>
+        <form id="contactForm" class="contact-form form-card" novalidate>
+          <h3>Send Us a Message</h3>
+          <div class="form-group">
+            <label for="cName">Your Name *</label>
+            <input type="text" id="cName" placeholder="Full Name" required />
+            <span class="err" id="err-cName"></span>
+          </div>
+          <div class="form-group">
+            <label for="cEmail">Email Address *</label>
+            <input type="email" id="cEmail" placeholder="example@email.com" required />
+            <span class="err" id="err-cEmail"></span>
+          </div>
+          <div class="form-group">
+            <label for="cMessage">Message *</label>
+            <textarea id="cMessage" rows="4" placeholder="Write your message here..." required></textarea>
+            <span class="err" id="err-cMessage"></span>
+          </div>
+          <button type="submit" class="btn btn-primary full-btn">Send Message →</button>
+          <div class="form-success" id="contactSuccess">
+            <span>✅</span> Message sent! We'll get back to you soon.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-icon">✦</span>
+        <div>
+          <span class="brand-name">Kithauli Coaching Center</span>
+          <span class="footer-tagline">Building Strong Foundations for a Bright Future</span>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#courses">Courses</a>
+        <a href="#faculty">Faculty</a>
+        <a href="#results">Results</a>
+        <a href="#enroll">Enroll</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-copy">© 2025 Kithauli Coaching Center · Village Kithauli, Meerut, UP</div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
